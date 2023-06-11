@@ -45,7 +45,7 @@ If your device isn't on the list or uses Mali-GPU or Adreno 5xx you can only run
 
 ![Menu1](https://media.discordapp.net/attachments/1107257434860421213/1117358948970930186/Screenshot_20230611_154438_ExaGear.jpg?width=342&height=468)
 - New Desktop Shortcuts to Launch DXVK without any other things or third party applicatons and also Built-in VirGL Renderer (Not Overlay)
-- 
+ 
 ![StartMenu1](https://media.discordapp.net/attachments/1107257434860421213/1117358956004778035/Screenshot_20230611_154458_ExaGear.jpg?width=621&height=468)
 - Many new things to see in Start Menu
 ![StartMenu2](https://media.discordapp.net/attachments/1107257434860421213/1117359914197729350/Screenshot_20230611_154904_ExaGear.jpg?width=621&height=468)
