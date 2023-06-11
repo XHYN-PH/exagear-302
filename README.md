@@ -21,6 +21,7 @@ Minimum:
 - Adreno 619L (Qualcomm Snapdragon 690)
 - Adreno 620 (Qualcomm Snapdragon 765, 765G)
 - Adreno 630 (Qualcomm Snapdragon 845, 850)
+- 
 Recommended:
 - Adreno 640(Qualcomm Snapdragon 855, 855+, 860)
 - Adreno 642L(Qualcomm Snapdragon 778G)
