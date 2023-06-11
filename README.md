@@ -77,12 +77,13 @@ XEGW Initial Release (11/05/23)
 Be careful, the activation of this function applies to the entire cache, and not just to the container where it is activated.
 - Check out all the changelogs [here](https://discord.com/channels/829747132562800700/829748422889570354/1117109602463535204)
 ## 🪲 Bugs
-- Capital Letters & Special Characters  isn't working
-- On some firmware, the server does not stop correctly, so it may hang when restarted (It is treated by forcibly stopping the application)
-- Mali-GPU has brightness bugs
+- Capital Letters & Special Characters  isn't working.
+- On some firmware, the server does not stop correctly, so it may hang when restarted (It is treated by forcibly stopping the application).
+- Mali-GPU has brightness bugs.
 ## 📝 Notes
-- If Experimental Boost Acceleration is on DSound3 will not work
-- Latest Input-Bridge isn't added
+- If Experimental Boost Acceleration is on DSound3 will not work.
+- Latest Input-Bridge isn't added.
+- WineD3D 8.3 is recommended to use for Built-in VirGL.
 
 
 ## 🗨️ Feedback
