@@ -12,6 +12,7 @@ N/A (ONGOING EDITING OF DESCRIPTION)
 
 #### WHY I'M DOING THIS ? :D
 - I'm doing this for people that doesn't have that much storage or lack of storage. ^_^
+- Also for people who only wants VirGL Renderer
 #### Is their a system requirements for T+Z Acceleration ?
 Minimum:
 - Adreno 610 (Qualcomm Snapdragon 665, 680)
