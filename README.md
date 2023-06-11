@@ -48,12 +48,16 @@ If your device isn't on the list or uses Mali-GPU or Adreno 5xx you can only run
  
 ![StartMenu1](https://media.discordapp.net/attachments/1107257434860421213/1117358956004778035/Screenshot_20230611_154458_ExaGear.jpg?width=621&height=468)
 - Many new things to see in Start Menu
+ 
 ![StartMenu2](https://media.discordapp.net/attachments/1107257434860421213/1117359914197729350/Screenshot_20230611_154904_ExaGear.jpg?width=621&height=468)
 - Almost all T+Z Renderers is in here, also a fix for Adreno 610 & Adreno 7xx
+ 
 ![StartMenu3](https://media.discordapp.net/attachments/1107257434860421213/1117359906564083772/Screenshot_20230611_154850_ExaGear.jpg?width=619&height=468)
 - Added Minimal DXVK files
+ 
 ![StartMenu4](https://media.discordapp.net/attachments/1107257434860421213/1117359897038819389/Screenshot_20230611_154836_ExaGear.jpg?width=627&height=468)
 - Many WineD3DForWindows choices
+ 
 ![StartMenu5](https://media.discordapp.net/attachments/1107257434860421213/1117359888729907210/Screenshot_20230611_154815_ExaGear.jpg?width=621&height=468)
 - Many Wine Version choices
 
