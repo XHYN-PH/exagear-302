@@ -94,6 +94,7 @@ If you have Problems or Questions kindly please join to the following links belo
 XEGW v7.0 (Vanilla) [1.36GB]
 - [Download](https://t.me/exagearallmod/67) (Telegram)
 - [Mirror](https://drive.google.com/file/d/1kHEhAUJMhLRYcoZ3nw_5SC7UCvV6ckpR/view?usp=sharing) (Google Drive)
+ 
 XEGW v7.0 (VirGL Only) [N/A]
 - Download (Google Drive)
 - Mirror (Mega)
