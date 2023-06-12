@@ -3,6 +3,9 @@
 
 Just a Simple Modification of XEGW  (●'◡'●).
 
+## ⚠️ Warning
+- I'm not the creator of this cache
+ 
 ## 📄 Description
 
 N/A (ONGOING EDITING OF DESCRIPTION)
