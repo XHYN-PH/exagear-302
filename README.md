@@ -67,7 +67,7 @@ If your device isn't on the list or uses Mali-GPU or Adreno 5xx you can only run
 
 ## ⚙️ Features / Changelogs
 
-XEGW Initial Release (11/05/23)
+XEGW (Vanilla) Initial Release (11/05/23)
 - ExaGear Default XServer has been replceed with XServer based on Termux-X11.
 - Run DXVK less hassle without any commands and other thing needed (●'◡'●).
 - New Built-in VirGL Renderer (Not VirGL Overlay).
