@@ -69,6 +69,7 @@ If your device isn't on the list or uses Mali-GPU or Adreno 5xx you can only run
 
 XEGW (Vanilla) Initial Release (11/05/23)
 - ExaGear Default XServer has been replceed with XServer based on Termux-X11.
+- Moouse can now capture inside the game.
 - Run DXVK less hassle without any commands and other thing needed (●'◡'●).
 - New Built-in VirGL Renderer (Not VirGL Overlay).
 - Many Wine Versions from Wine 3.0.5 up to Latest Wine 8.9!
@@ -81,11 +82,13 @@ Be careful, the activation of this function applies to the entire cache, and not
 - Check out all the changelogs [here](https://discord.com/channels/829747132562800700/829748422889570354/1117109602463535204)
 ## 🪲 Bugs
 - Capital Letters & Special Characters  isn't working.
+- Mouse is bugged inside the game if the cursor is moving.
 - On some firmware, the server does not stop correctly, so it may hang when restarted (It is treated by forcibly stopping the application).
-- Mali-GPU has brightness bugs.
+- Mali-GPU has brightness bugs (can be fixed via editing the .desktop).
 ## 📝 Notes
 - If Experimental Boost Acceleration is on DSound3 will not work.
 - Latest Input-Bridge isn't added.
+- Wine 3.x doesn't support DXVK.
 - WineD3D 8.3 is recommended to use for Built-in VirGL.
 
 
