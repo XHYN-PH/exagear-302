@@ -87,6 +87,7 @@ Be careful, the activation of this function applies to the entire cache, and not
 - Mali-GPU has brightness bugs (can be fixed via editing the .desktop).
 ## 📝 Notes
 - If Experimental Boost Acceleration is on DSound3 will not work.
+- Wine 6.x or below only supports maximum DXVK 1.10.3 version
 - Latest Input-Bridge isn't added.
 - Wine 3.x doesn't support DXVK.
 - WineD3D 8.3 is recommended to use for Built-in VirGL.
