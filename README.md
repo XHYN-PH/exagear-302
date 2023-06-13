@@ -113,6 +113,7 @@ Input-Bridge v0.1.9.9
 ## 📚 Acknowledgements
 
  - [Termux-X11 by @Twaik](https://github.com/twaik/)
+ - [Windows Compatibility Layer by WineHQ](https://www.winehq.org/)
  - [EDPatcher by @bu2ub](https://github.com/ewt45/)
  - [Input-Bridge by @DotNetBurst](https://github.com/DotNetBurst/)
  - [3D Renderers by @alexvorxx](https://github.com/alexvorxx/)
