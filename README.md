@@ -51,7 +51,7 @@ REMOVED
 
 ## ⚙️ Features / Changelogs
 
-Alien Cache v3.8 (Vanilla) Initial Release (21/06/23)
+Alien Cache v3.8 (Vanilla) Initial Release (19/06/23)
 - ExaGear Default XServer has been replceed with XServer based on Termux-X11.
 - Moouse can now capture inside the game.
 - Run DXVK less hassle without any commands and other thing needed (●'◡'●).
