@@ -51,14 +51,18 @@ REMOVED
 
 ## ⚙️ Features / Changelogs
 
-Alien Cache (Vanilla) Initial Release (11/05/23)
+Alien Cache v3.8 (Vanilla) Initial Release (21/06/23)
 - ExaGear Default XServer has been replceed with XServer based on Termux-X11.
 - Moouse can now capture inside the game.
 - Run DXVK less hassle without any commands and other thing needed (●'◡'●).
 - Latest T+Z Libraries Added for Adreno 610 & 7xx.
 - Added ability to create Android desktop shortcuts from the latest EDPatch.
-- Fixed other bugs and typos.
+- Added all supports what have Allmod. Thanks for that who made Allmod (Mr.Frolof and Others)
+- Added new Turnip+Zink (Alexvorxx)
+- Added DXVK-Async 2.2 & DXVK 0.96 (Ilya114 & Inferno)
 - APK based on XEGW [here](https://discord.com/channels/829747132562800700/829748422889570354/1117109602463535204)
+## Modifications I maded to the cache
+- SOON
 ## 🪲 Bugs
 - Capital Letters & Special Characters  isn't working.
 - Mouse is bugged inside the game if the cursor is moving.
