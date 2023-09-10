@@ -1,10 +1,10 @@
 
-# Simple Modification of Alien Cache (ExaGear)
+# Simple Modification of ExaGear Caches for VirGL
 
-Just a Simple Modification Cache by Alien (●'◡'●).
+Just a Simple Modification of Caches Nothing Special either (●'◡'●).
 
 ## ⚠️ Warning
-- I'm not the creator of this cache. All files used on this cache is from respective owners/developers.
+- I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
 - Not tested if there's still <sub>pagefile.pif</sub> virus. **USE AT YOUR OWN RISK!!**
  
 ## 📄 Description
@@ -50,30 +50,17 @@ If your device isn't on the list or uses Mali-GPU or Adreno 5xx you can only run
 REMOVED
 
 ## ⚙️ Features / Changelogs
+Alien Based Cache:
 
-Alien Cache v3.8 (Vanilla) Initial Release (19/06/23)
-- ExaGear Default XServer has been replceed with XServer based on Termux-X11.
-- Moouse can now capture inside the game.
-- Run DXVK less hassle without any commands and other thing needed (●'◡'●).
-- Latest T+Z Libraries Added for Adreno 610 & 7xx.
-- Added ability to create Android desktop shortcuts from the latest EDPatch.
-- Added all supports what have Allmod. Thanks for that who made Allmod (Mr.Frolof and Others)
-- Added new Turnip+Zink (Alexvorxx)
-- Added DXVK-Async 2.2 & DXVK 0.96 (Ilya114 & Inferno)
-- APK based on XEGW [here](https://discord.com/channels/829747132562800700/829748422889570354/1117109602463535204)
+Hugo Based Cache:
+
+Allmod Based Cache:
 ## Modifications I maded to the cache
-- SOON
+- NONE
 ## 🪲 Bugs
-- Capital Letters & Special Characters  isn't working.
-- Mouse is bugged inside the game if the cursor is moving.
-- On some firmware, the server does not stop correctly, so it may hang when restarted (It is treated by forcibly stopping the application).
+NONE
 ## 📝 Notes
-- If Experimental Boost Acceleration is on DSound3 will not work.
-- Wine 6.x or below only supports maximum DXVK 1.10.3 version
-- Latest Input-Bridge isn't added.
-- Wine 3.x doesn't support DXVK.
-- WineD3D 8.3 is recommended to use for Built-in VirGL.
-
+NONE
 
 ## 🗨️ Feedback
 
@@ -82,13 +69,9 @@ If you have Problems or Questions kindly please join to the following links belo
 - [ExaGear International Discord](https://dsc.gg/exagear)
 
 ## 🔗 Downloads
-Alien Cache v3.8 (Vanilla) [1.29GB]
-- [Download](https://mega.nz/folder/aFdHjSQA#ubo0orc-pUC-OevAYFKEAQ) (MEGA)
+Alien Cache v3.8 (Vanilla) [REMOVED]
+- [REMOVED](https://mega.nz/folder/aFdHjSQA#ubo0orc-pUC-OevAYFKEAQ) (MEGA)
  
-Alien Cache v3.8 (VirGL Only) [SOON]
-- Download (Google Drive)
-- Mirror (Mega)
-
 ## 💿 Miscs
 Input-Bridge v0.1.9.9
 - [Download](https://cdn.discordapp.com/attachments/1066960343651340348/1091712585084190861/InputBridge_v0.1.9.9.apk)
