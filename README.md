@@ -1,11 +1,10 @@
 
-# Simple Modification of ExaGear Caches for VirGL
+# Simple Modification of ExaGear Windows Emulator for Older Games/Devices
 
 Just a Simple Modification of Caches Nothing Special either (●'◡'●).
 
 ## ⚠️ Warning
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
-- Not tested if there's still <sub>pagefile.pif</sub> virus. **USE AT YOUR OWN RISK!!**
  
 ## 📄 Description
 
@@ -19,7 +18,7 @@ N/A (ONGOING EDITING OF DESCRIPTION)
 - Also for people who only wants VirGL Renderer
 
 #### DOES THIS SUPPORTED 64-BITS/X64 APPLICATIONS ?
-- Absolutely no, this is ExaGear but much better and modified, but you may want to check [Box64Droid](https://github.com/Ilya114/Box64Droid) or [Box4Droid](https://github.com/Herick75/Box4Droid).
+- Absolutely no, this is ExaGear Emulator which is only x86, but you may want to check [Box64Droid](https://github.com/Ilya114/Box64Droid) or [Box4Droid](https://github.com/Herick75/Box4Droid).
 
 
 
