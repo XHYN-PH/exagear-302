@@ -35,16 +35,15 @@
 
 ---
 
-### ❓FAQ - Frequently Asked Question(s)
-
-#### 1. DOES EXAGEAR SUPPORTS X64 or 64-BITS ???
+## ❓FAQ - Frequently Asked Question(s)
+Question #1: **DOES EXAGEAR SUPPORTS X64 or 64-BITS ???**
 - Absolutely No, It only supports x86 or 32-bits emulation, but you may want to check other alternatives such as **[Termux-Box](https://github.com/olegos2/termux-box)**, **[Box64Droid](https://github.com/Ilya114/Box64Droid)**, **[MoBox](https://github.com/olegos2/mobox)**, **[Winlator](https://github.com/brunodev85/winlator)**, **[Box4Droid](https://github.com/Herick75/Box4Droid)**
 
-#### 2. IS EXAGEAR SAFE TO USE ???
+Question #2: **IS EXAGEAR SAFE TO USE ???**
 - Maybe, Since ExaGear real developers has been stopped developing it, Only the community improving the project.
 - It will be based on the cache/application you used since ExaGear has many mods across the internet.
 
-#### 3. DOES EXAGEAR SUPPORTS MALI-GPU ???
+Question #3: **DOES EXAGEAR SUPPORTS MALI-GPU ???**
 - Absolutely Yes, Mali-GPU hardware acceleration is supported via VirGL only, but it's slow and only OpenGL (Other Alternative is Software Rendering)
 
 ---
