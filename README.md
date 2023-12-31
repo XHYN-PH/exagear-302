@@ -1,7 +1,28 @@
+# Simple Modification of ExaGear: Windows Emulator
+<h1 align="center">
+  <br>
+  <a href="https://yuzu-emu.org/"><img src="https://raw.githubusercontent.com/XHYN-PH/exagear-302/main/logo/eltechs-sq-512-nopub.png" alt="ExaGear" width="370"></a>
+  <br>
+  <b>ExaGear: Windows Emulator</b>
+  <br>
+</h1>
 
-# Simple Modification of ExaGear Windows Emulator for Older Games/Devices
+<h4 align="center">ExaGear is a virtualization solution that provides an x86 emulation environment on ARM-based devices. Just a Simple Modification of Caches Nothing Special either (●'◡'●)
+</h4>
 
-Just a Simple Modification of Caches Nothing Special either (●'◡'●).
+<p align="center">
+    <a href="https://youtube.com/@xhyn_ph">
+        <img src="https://img.shields.io/badge/YouTube-red?color=bd2c00&label=SUBSCRIBE&logo=youtube&logoColor=white"
+            alt="YouTube">
+     <a href="https://exagear.wiki">
+        <img src="https://img.shields.io/badge/Wikipedia-%23000000.svg?color=6cc644&label=ExaGear&logo=wikipedia&logoColor=white"
+            alt="Wikipedia">
+     </a>
+    <a href="https://discord.com/invite/q842JB4gCm">
+        <img src="https://img.shields.io/discord/398318088170242053?color=5865F2&label=EmuGear&logo=discord&logoColor=white"
+            alt="Discord">
+    </a>
+</p>
 
 ## ⚠️ Warning
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
