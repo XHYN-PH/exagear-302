@@ -54,36 +54,56 @@
 
 N/A (ONGOING EDITING OF DESCRIPTION)
 
-## 📲 Screenshots
+----
+
+### 📲 Screenshots
 REMOVED
 
-## ⚙️ Features / Changelogs
+---
+
+### ⚙️ Features / Changelogs
 Alien Based Cache:
 
 Hugo Based Cache:
 
 Allmod Based Cache:
-## Modifications I maded to the cache
-- NONE
-## 🪲 Bugs
-NONE
-## 📝 Notes
-NONE
 
-## 🗨️ Feedback
+---
+
+### Modifications I maded to the cache
+- NONE
+
+---
+
+### 🪲 Bugs
+
+---
+
+### 📝 Notes
+
+---
+
+### 🗨️ Feedback
 
 If you have Problems or Questions kindly please join to the following links below so the devs can help you much faster.
 
 - [ExaGear International Discord](https://dsc.gg/exagear)
 
-#### 🔗 Downloads
+---
+
+### 🔗 Downloads
 Alien Cache v3.8 (Vanilla) [REMOVED]
 - [REMOVED](https://mega.nz/folder/aFdHjSQA#ubo0orc-pUC-OevAYFKEAQ) (MEGA)
- 
-## 💿 Miscs
+
+---
+
+### 💿 Miscs
 Input-Bridge v0.1.9.9
 - [Download](https://cdn.discordapp.com/attachments/1066960343651340348/1091712585084190861/InputBridge_v0.1.9.9.apk)
-## 📚 Acknowledgements
+
+---
+
+### 📚 Acknowledgements
 
  - [Termux-X11 by @Twaik](https://github.com/twaik/)
  - [Windows Compatibility Layer by WineHQ](https://www.winehq.org/)
