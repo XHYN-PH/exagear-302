@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://yuzu-emu.org/"><img src="https://raw.githubusercontent.com/XHYN-PH/exagear-302/main/logo/eltechs-sq-512-nopub.png" alt="ExaGear" width="370"></a>
+  <a href="#"><img src="https://raw.githubusercontent.com/XHYN-PH/exagear-302/main/logo/eltechs-sq-512-nopub.png" alt="ExaGear" width="370"></a>
   <br>
   <b>ExaGear: Windows Emulator</b>
   <br>
