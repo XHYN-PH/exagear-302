@@ -24,9 +24,13 @@
     </a>
 </p>
 
-## ⚠️ Warning
+---
+
+### ⚠️ Warning
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
- 
+
+---
+
 ## 📄 Description
 
 N/A (ONGOING EDITING OF DESCRIPTION)
