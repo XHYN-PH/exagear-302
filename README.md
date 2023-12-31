@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-      <b><a href="https://github.com/XHYN-PH/exagear-302/issues">GAME COMPATIBILITY LIST</a> • <a href="#">Building Guide</a></b>
+      <b><a href="https://github.com/XHYN-PH/exagear-302/issues">GAME COMPATIBILITY LIST</a> • <a href="#-downloads">DOWNLOAD</a></b>
 </p>
 
 <h4 align="center">ExaGear is a virtualization solution that provides an x86 emulation environment on ARM-based devices. Just a Simple Modification of Caches Nothing Special either (●'◡'●)
