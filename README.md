@@ -49,6 +49,10 @@ Question #3: **DOES EXAGEAR SUPPORTS MALI-GPU ???**
 ---
 
 ### 📄 INTRODUCTION
+- What is ExaGear? A series of commercial programs created in 2013 by the Russian company Eltechs for translating x86_64 instructions into ARMv6(ExaGear Desktop),ARMv7 ,ARMv8 to run Windows applications and games in a Linux container using **[Wine](https://www.winehq.org/)** - a free implementation of the Windows API
+
+### REASON FOR CLOSING THE PROJECT
+- The reason for closing the project was **unprofitability**. After the release, the application was successfully hacked, and could be used for free, and apparently, sales of the application in the Play Market began to fall, from which the developers profits either dropped significantly or did not exist at all. Expensive controls for games played a role in the future of the project which closed on February 28, 2019.
 
 ----
 
