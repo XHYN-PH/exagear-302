@@ -91,4 +91,4 @@ Input-Bridge v0.1.9.9
  - [3D Renderers by @alexvorxx](https://github.com/alexvorxx/)
  - [DXVK by @Doitsujin](https://github.com/doitsujin/dxvk)
  - [WineD3D For Windows by @Adolfintel](https://github.com/adolfintel/wined3d4win)
- - And ExaGear International Devs & Testers (Hugo, AkaGloomy, Luis Gaming Test, Ajay, Alien, CoreTM, MrPurple, Jump768, Sparda and Many More)
+ - And ExaGear International Devs & Testers (Hugo, AkaGloomy, Luis Gaming Test, Ajay, Alien, CoreLand, MrPurple, Jump768, Sparda and Many More)
