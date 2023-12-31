@@ -51,26 +51,13 @@
 
 ### 📄 INTRODUCTION
 
-N/A (ONGOING EDITING OF DESCRIPTION)
-
 ----
 
 ### 📲 Screenshots
-REMOVED
 
 ---
 
 ### ⚙️ Features / Changelogs
-Alien Based Cache:
-
-Hugo Based Cache:
-
-Allmod Based Cache:
-
----
-
-### Modifications I maded to the cache
-- NONE
 
 ---
 
@@ -84,15 +71,9 @@ Allmod Based Cache:
 
 ### 🗨️ Feedback
 
-If you have Problems or Questions kindly please join to the following links below so the devs can help you much faster.
-
-- [ExaGear International Discord](https://dsc.gg/exagear)
-
 ---
 
 ### 🔗 Downloads
-Alien Cache v3.8 (Vanilla) [REMOVED]
-- [REMOVED](https://mega.nz/folder/aFdHjSQA#ubo0orc-pUC-OevAYFKEAQ) (MEGA)
 
 ---
 
