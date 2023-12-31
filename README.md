@@ -7,6 +7,10 @@
   <br>
 </h1>
 
+<p align="center">
+      <b><a href="https://github.com/XHYN-PH/exagear-302/issues">GAME COMPATIBILITY LIST</a> • <a href="#">Building Guide</a></b>
+</p>
+
 <h4 align="center">ExaGear is a virtualization solution that provides an x86 emulation environment on ARM-based devices. Just a Simple Modification of Caches Nothing Special either (●'◡'●)
 </h4>
 
@@ -26,26 +30,29 @@
 
 ---
 
-### ⚠️ Warning
+### ⚠️ WARNING
+- **THE REAL PROJECT/DEVELOPMENT OF EXAGEAR EMULATOR IS ELTECHS AND IT'S BEEN CEASED/CLOSED SINCE FEB OF 2019.** For more information please visit the **[wiki](https://exagear.wiki)**
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
 
 ---
 
-## 📄 Description
+### ❓FAQ - Frequently Asked Question(s)
+
+#### 1. DOES EXAGEAR SUPPORTS X64 or 64-BITS ???
+- Absolutely No, It only supports x86 or 32-bits emulation. but you may want to check other alternatives such as **[Termux-Box](https://github.com/olegos2/termux-box)**, **[Box64Droid](https://github.com/Ilya114/Box64Droid)**, **[MoBox](https://github.com/olegos2/mobox)**, **[Winlator](https://github.com/brunodev85/winlator)**, **[Box4Droid](https://github.com/Herick75/Box4Droid)**
+
+#### 2. IS EXAGEAR SAFE TO USE ???
+- Maybe, Since ExaGear real developers has been stopped developing it, Only the community improving the project.
+- It will be based on the cache/application you used since ExaGear has many mods across the internet.
+
+#### 3. DOES EXAGEAR SUPPORTS MALI-GPU ???
+- Absolutely Yes, Mali-GPU hardware acceleration is supported via VirGL only, but it's slow and only OpenGL (Other Alternative is Software Rendering)
+
+---
+
+### 📄 INTRODUCTION
 
 N/A (ONGOING EDITING OF DESCRIPTION)
-
-
-## ❓FAQ
-
-#### WHY I'M DOING THIS ? :D
-- I'm doing this for people that doesn't have that much storage or lack of storage. ^_^
-- Also for people who only wants VirGL Renderer
-
-#### DOES THIS SUPPORTED 64-BITS/X64 APPLICATIONS ?
-- Absolutely no, this is ExaGear Emulator which is only x86, but you may want to check [Box64Droid](https://github.com/Ilya114/Box64Droid) or [Box4Droid](https://github.com/Herick75/Box4Droid).
-
-
 
 ## 📲 Screenshots
 REMOVED
@@ -69,7 +76,7 @@ If you have Problems or Questions kindly please join to the following links belo
 
 - [ExaGear International Discord](https://dsc.gg/exagear)
 
-## 🔗 Downloads
+#### 🔗 Downloads
 Alien Cache v3.8 (Vanilla) [REMOVED]
 - [REMOVED](https://mega.nz/folder/aFdHjSQA#ubo0orc-pUC-OevAYFKEAQ) (MEGA)
  
