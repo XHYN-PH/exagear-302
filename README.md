@@ -46,6 +46,9 @@ Question #2: **IS EXAGEAR SAFE TO USE ???**
 Question #3: **DOES EXAGEAR SUPPORTS MALI-GPU ???**
 - Absolutely Yes, Mali-GPU hardware acceleration is supported via VirGL only, but it's slow and only OpenGL (Other Alternative is Software Rendering)
 
+Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
+- ExaGear is still the best for Old x86 Games and it has a very good touch controls unlike to other emulators, It's also one of the easiest to use...
+
 ---
 
 ### 📄 INTRODUCTION
