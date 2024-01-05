@@ -29,6 +29,24 @@
 
 ---
 
+### 🌐 COMMUNITIES
+<p align="center">
+  <a href="https://t.me/exageartesting">Alien's Community</a> |
+  <a href="https://t.me/MishkaKolosExagear">MishkaKolos TG</a> |
+  <a href="https://discord.com/invite/qJ4HvDt">MishkaKolos ExaGear</a> |
+  <a href="https://t.me/exagearallmod">ExaGear Allmod</a> |
+  <a href="https://discord.gg/XpbEp3dWv3">EMUPLAY0's Community</a> |
+  <a href="https://t.me/denis_rachev2">Denis Rachev</a> |
+  <a href="https://t.me/+IubWjXHbtScwOWQy">WEmu (WIP)</a> |
+  <a href="https://discord.gg/XpbEp3dWv3">EMUPLAY0's Community</a> |
+  <a href="https://discord.gg/XnbXNQM">Cassia (WIP)</a> |
+  <a href="https://discord.gg/thjpZ4P7Bm">Box64Droid Discord</a> |
+  <a href="https://t.me/box64droidchat">Box64Droid TG</a> |
+  <a href="https://discord.com/invite/GAg9eYg24G">Project009's Community</a>
+</p>
+
+---
+
 ### ⚠️ WARNING
 - **THE REAL PROJECT/DEVELOPMENT OF EXAGEAR EMULATOR IS ELTECHS AND IT'S BEEN CEASED/CLOSED SINCE FEB OF 2019.** For more information please visit the **[wiki](https://exagear.wiki)**
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
