@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-      <b><a href="https://github.com/XHYN-PH/exagear-302/issues">GAME COMPATIBILITY LIST</a> • <a href="/HARDWARE ACCELERATION.md">PHONE REQUIREMENTS</a></b>
+      <b><a href="https://github.com/XHYN-PH/exagear-302/issues">GAME COMPATIBILITY LIST</a> • <a href="/accel.md">PHONE REQUIREMENTS</a></b>
 </p>
 
 <h4 align="center">ExaGear is a virtualization solution that provides an x86 emulation environment on ARM-based devices (●'◡'●).
@@ -52,25 +52,8 @@ Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
 ---
 
 ### 📲 PHONE REQUIREMENTS
-#### ANDROID VERSIONS 
-(Minimum target is Android SDK Version 21 while Target is Version 27). 
-> ⚠️ **Starting from Android 11 D:\ has been slowed and same to newer android versions**. On Huawei devices with Android 10 and above, there are problems running ExaGear.⚠️
-
-| ANDROID VERSION | MIN API | SUPPORT | ISSUES |
-| --------------- | ------- | ------- | ------ |
-| Andorid 5.x     |      21 | UNKNOWN | UNKNOWN |
-| Android 6.0     |      23 | SUPPPORTED | UNKNOWN |
-| Android 7.x     |      24 | SUPPORTED | UNKNOWN |
-| Android 8.x     |      26 | SUPPORTED | NONE |
-| Android 9       |      28 | SUPPORTED | NONE |
-| Android 10      |      29 | SUPPORTED | NONE |
-| Android 11      |      30 | SUPPORTED | **SLOW D:\ DRIVE** |
-| Android 12      |      31 | SUPPORTED | **KEYBOARD BUG (FIXED)** |
-| Andorid 13      |      33 | SUPPORTED | **KEYBOARD BUG (FIXED)** |
-| Android 14      |      34 | UNKNOWN | UNKNOWN |
-
-#### COMPATIBLE GPU(s)
-THE LIST IS BIG SO CLICK [HERE](https://github.com/XHYN-PH/exagear-302/blob/main/HARDWARE%20ACCELERATION.md)
+#### COMPATIBLE GPUs & ANDROID VERSIONS  
+THE LIST IS BIG SO CLICK [HERE](/accel.md)
 
 ---
 
