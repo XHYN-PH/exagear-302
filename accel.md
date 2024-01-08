@@ -1,3 +1,20 @@
+#### ANDROID VERSIONS 
+(Minimum target is Android SDK Version 21 while Target is Version 27). 
+> ⚠️ **Starting from Android 11 D:\ has been slowed and same to newer android versions**. On Huawei devices with Android 10 and above, there are problems running ExaGear.⚠️
+
+| ANDROID VERSION | MIN API | SUPPORT | ISSUES |
+| --------------- | ------- | ------- | ------ |
+| Andorid 5.x     |      21 | UNKNOWN | UNKNOWN |
+| Android 6.0     |      23 | SUPPPORTED | UNKNOWN |
+| Android 7.x     |      24 | SUPPORTED | UNKNOWN |
+| Android 8.x     |      26 | SUPPORTED | NONE |
+| Android 9       |      28 | SUPPORTED | NONE |
+| Android 10      |      29 | SUPPORTED | NONE |
+| Android 11      |      30 | SUPPORTED | **SLOW D:\ DRIVE** |
+| Android 12      |      31 | SUPPORTED | **KEYBOARD BUG (FIXED)** |
+| Andorid 13      |      33 | SUPPORTED | **KEYBOARD BUG (FIXED)** |
+| Android 14      |      34 | UNKNOWN | UNKNOWN |
+
 #### COMPATIBLE GPU(s)
 | GPU        | DDRAW | VIRGL OVERLAY | LLVM RENDERER | VIRTIO-GPU | TURNIP | ZINK | DXVK |
 | ---------- | ----- | ------------- | ------------- | ---------- | ------ | ---- | ---- |
