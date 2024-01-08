@@ -55,9 +55,9 @@
 
 ## ❓FAQ - Frequently Asked Question(s)
 Question #1: **DOES EXAGEAR SUPPORTS X64 or 64-BITS ???**
-- Absolutely No, It only supports x86 or 32-bits emulation, but you may want to check other alternatives such as **[Termux-Box](https://github.com/olegos2/termux-box)**, **[Box64Droid](https://github.com/Ilya114/Box64Droid)**, **[MoBox](https://github.com/olegos2/mobox)**, **[Winlator](https://github.com/brunodev85/winlator)**, **[Box4Droid](https://github.com/Herick75/Box4Droid)**, **[MiceWine](https://github.com/KreitinnSoftware/MiceWine)**, **[BRVM](https://github.com/Gamelover7825/BRVM)**
+- Absolutely No, It only supports x86 or 32-bits emulation, but you may want to check other alternatives such as **[Termux-Box](https://github.com/olegos2/termux-box)**, **[Box64Droid](https://github.com/Ilya114/Box64Droid)**, **[MoBox](https://github.com/olegos2/mobox)**, **[Winlator](https://github.com/brunodev85/winlator)**, **[Box4Droid](https://github.com/Herick75/Box4Droid)**, **[MiceWine](https://github.com/KreitinnSoftware/MiceWine)**, **[BRVM](https://github.com/Gamelover7825/BRVM)**, **[Fex-Android](https://github.com/AllPlatform/Fex-Android)**, **[androBox](https://github.com/Pipetto-crypto/androBox)**
 
-Question #2: **IS EXAGEAR SAFE TO USE ???**
+Question #2: **IS EXAGEAR STILL SAFE TO USE ???**
 - Maybe, Since ExaGear real developers has been stopped developing it, Only the community improving the project.
 - It will be based on the cache/application you used since ExaGear has many mods across the internet.
 
