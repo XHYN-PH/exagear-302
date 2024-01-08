@@ -29,24 +29,6 @@
 
 ---
 
-### 🌐 COMMUNITIES
-<p align="center">
-  <a href="https://t.me/exageartesting">Alien's Community</a> |
-  <a href="https://t.me/MishkaKolosExagear">MishkaKolos TG</a> |
-  <a href="https://discord.com/invite/qJ4HvDt">MishkaKolos ExaGear</a> |
-  <a href="https://t.me/exagearallmod">ExaGear Allmod</a> |
-  <a href="https://discord.gg/XpbEp3dWv3">EMUPLAY0's Community</a> |
-  <a href="https://t.me/denis_rachev2">Denis Rachev</a> |
-  <a href="https://t.me/+IubWjXHbtScwOWQy">WEmu (WIP)</a> |
-  <a href="https://discord.gg/XpbEp3dWv3">EMUPLAY0's Community</a> |
-  <a href="https://discord.gg/XnbXNQM">Cassia (WIP)</a> |
-  <a href="https://discord.gg/thjpZ4P7Bm">Box64Droid Discord</a> |
-  <a href="https://t.me/box64droidchat">Box64Droid TG</a> |
-  <a href="https://discord.com/invite/GAg9eYg24G">Project009's Community</a>
-</p>
-
----
-
 ### ⚠️ WARNING
 - **THE REAL PROJECT/DEVELOPMENT OF EXAGEAR EMULATOR IS ELTECHS AND IT'S BEEN CEASED/CLOSED SINCE FEB OF 2019.** For more information please visit the **[wiki](https://exagear.wiki)**
 - I'm not the creator of any cache I modified. All files used on this cache is from respective owners/developers.
@@ -69,6 +51,10 @@ Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
 
 ---
 
+### 📲 PHONE REQUIREMENTS
+
+---
+
 ### 📄 INTRODUCTION
 - What is ExaGear? A series of commercial programs created in 2013 by the Russian company Eltechs for translating x86_64 instructions into ARMv6(ExaGear Desktop),ARMv7 ,ARMv8 to run Windows applications and games in a Linux container using **[Wine](https://www.winehq.org/)** - a free implementation of the Windows API
 
@@ -77,19 +63,19 @@ Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
 
 ----
 
-### 📲 Screenshots
+### 📲 SCREENSHOTS
 
 ---
 
-### ⚙️ Features / Changelogs
+### ⚙️ FEATURES / CHANGELOGS
 
 ---
 
-### 🪲 Bugs
+### 🪲 BUGS
 
 ---
 
-### 📝 Notes
+### 📝 NOTES
 
 ---
 
@@ -97,17 +83,34 @@ Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
 
 ---
 
-### 🔗 Downloads
+### 🔗 DOWNLOADS
 
 ---
 
-### 💿 Miscs
-Input-Bridge v0.1.9.9
-- [Download](https://cdn.discordapp.com/attachments/1066960343651340348/1091712585084190861/InputBridge_v0.1.9.9.apk)
+### 💿 MISCS/ESSENTIALS
+
 
 ---
 
-### 📚 Acknowledgements
+### 🌐 COMMUNITIES
+
+- [Alien's Community](https://t.me/exageartesting)
+- [MishkaKolos Telegram](https://t.me/MishkaKolosExagear)
+- [MishkaKolos Discord](https://discord.com/invite/qJ4HvDt)
+- [ExaGear Allmod](https://t.me/exagearallmod)
+- [Ajay's Community](https://discord.gg/XpbEp3dWv3)
+- [Denis Rachev Community](https://t.me/denis_rachev2)
+- [WEmu WIP](https://t.me/+IubWjXHbtScwOWQy)
+- [Cassia WIP](https://discord.gg/XnbXNQM)
+- [Project009's Community](https://discord.com/invite/GAg9eYg24G)
+- [Box64Droid Discord](https://discord.gg/thjpZ4P7Bm)
+- [Box64Droid Telegram](https://t.me/box64droidchat)
+- [CoreLand's Community](https://t.me/CoreLand)
+- [JotarOS Commmunity](https://t.me/EmulatorsROM)
+
+---
+
+### 📚 ACKNOWLEDGEMENTS
 
  - [Termux-X11 by @Twaik](https://github.com/twaik/)
  - [Windows Compatibility Layer by WineHQ](https://www.winehq.org/)
