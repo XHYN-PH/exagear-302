@@ -81,10 +81,6 @@ Question #4: **WHY EXAGEAR INSTEAD OF OTHER EMULATORS ???**
 
 ---
 
-### 🗨️ Feedback
-
----
-
 ### 🔗 DOWNLOADS
 
 ---
